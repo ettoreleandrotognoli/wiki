@@ -1,6 +1,5 @@
 Title: Python Brasil
 Slug: python-brasil
-Alias: /pythonbrasil/
 Template: page
 
 ## O que é a Python Brasil?

@@ -1,10 +1,14 @@
 {% extends 'base.html' %}
 
+{% block aditional_styles %}
+  <link href="{{ SITEURL }}/theme/pybr/css/home.css" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
-  <div class="home-background">
+  <div class="page-description-container">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-xs-12">
           {% for item in NAVBAR_HOME_LINKS %}
             <a href="{{ SITEURL }}/{{ item.children.0.href }}" class="page-description-link">
               <div class="page-description">

@@ -3,13 +3,7 @@
 
 import json
 import os
-
-try:
-    # python 2
-    from urllib2 import urlopen
-except ImportError:
-    # python 3
-    from urllib.request import urlopen
+import urllib2
 
 import yaml
 from slugify import slugify
@@ -30,7 +24,7 @@ def scrapping_pyladies():
     Chamado para analisar o YML e retornar uma lista de dicionários
     com os dados das sedes da Pyladies.
     """
-    html = urlopen(PYLADIES_YAML).read()
+    html = urllib2.urlopen(PYLADIES_YAML).read()
     return yaml.load(html)
 
 

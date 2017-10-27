@@ -1,0 +1,14 @@
+{
+    "nome": "Morphus",
+    "cidade": "Fortaleza",
+    "regiao": "Nordeste",
+    "site": "http://www.morphus.com.br/",
+    "contatos": [
+        {
+            "texto": "contato@morphus.com.br",
+            "link": "mail:contato@morphus.com.br"
+        }
+    ],
+    "logo": "images/empresas/morphus.png",
+    "estado": "Ceará"
+}
